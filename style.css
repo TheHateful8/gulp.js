@@ -6,7 +6,9 @@ body, html {
     height: 100%;
 
     text-decoration: none;
-    font-family: "Open Sans", sans-serif;   
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;   
     color: white;
 }
 
@@ -86,6 +88,10 @@ footer {
 	vertical-align: baseline;
 	display: block;
 	color: #333;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1024px;
+	float: none;
 }
 
 .foott{
@@ -98,7 +104,7 @@ footer {
 	height: inherit;
 	width: auto;
 	max-width: 1024px;
-	
+
 }
 
 .texte {
@@ -122,5 +128,3 @@ footer {
     font-style: inherit;
     font-family: inherit;
 }
-
-
